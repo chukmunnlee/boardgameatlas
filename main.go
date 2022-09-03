@@ -5,10 +5,10 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"main/api"
 	"strings"
 	"time"
 
-	"github.com/chukmunnlee/boardgameatlas/api"
 	"github.com/fatih/color"
 )
 

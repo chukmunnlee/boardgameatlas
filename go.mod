@@ -1,4 +1,4 @@
-module github.com/chukmunnlee/boardgameatlas
+module main
 
 go 1.19
 
