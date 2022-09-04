@@ -7,6 +7,7 @@ Notes are taken by [@lyqht](https://github.com/lyqht).
 ---
 
 **Table of contents**
+  - [Slides](#slides)
   - [Setup Go instructions](#setup-go-instructions)
   - [Creating the Boardgame Atlas CLI app](#creating-the-boardgame-atlas-cli-app)
     - [Learn to run and build a simple Go module](#learn-to-run-and-build-a-simple-go-module)
@@ -21,6 +22,10 @@ Notes are taken by [@lyqht](https://github.com/lyqht).
   - [Random nuggets](#random-nuggets)
 
 ---
+
+## Slides
+
+Workshop slides can be found [here](https://bit.ly/golang_for_programmers). A PDF copy is also available in this repository.
 
 ## Setup Go instructions
 
@@ -243,7 +248,7 @@ Here are some concepts mentioned in the presentation, supplemented with resource
 ### Assigning & getting values
 
 ```go
-name:= "ChukMunn" // assign content to variable
+name:= "fred" // assign content to variable
 &name // a pointer/ memory address of variable
 *&name // content of memory address
 ```
@@ -273,5 +278,5 @@ name:= "ChukMunn" // assign content to variable
 - Go doesn't throw exceptions, need check manually if there is error and the error code directly.
 - GoLang cannot understand JSON directly
 - Why we return a pointer instead of the object directly
-  -  In JS, every variable is an object reference.
+  -  In JS/Typescript, Java, objects and arrays are references.
   -  In Go, if we set the return type to be `SearchResult` instead of `*SearchResult`, then we cannot return nil if there is an error. We would need to create an empty `SearchResult` object. This is wasted memory.
